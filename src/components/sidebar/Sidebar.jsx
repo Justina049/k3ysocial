@@ -3,6 +3,11 @@ import "./Sidebar.css"
 
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <div className="sidebar">
+      <div className="sidebarWrapper">
+        this is the sidebar
+
+      </div>
+    </div>
   )
 }
