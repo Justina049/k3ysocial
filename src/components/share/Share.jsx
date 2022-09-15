@@ -7,7 +7,7 @@ export default function Share() {
     <div className="share">
         <div className="shareWrapper">
             <div className="shareTop">
-                <img src="/assets/g2.jpg" alt="" className="shareProfileImg" /> 
+                <img className="shareProfileImg" src="/assets/m9.jpg" alt="" /> 
                 {/* <img src="/assets/m1.jpg" alt="" className="topbarImg" /> */}
                 <input
                 placeholder="What's on your mind?"
@@ -15,7 +15,7 @@ export default function Share() {
                 />
             </div>
             <hr className="shareHr" />
-            <div className="shareButtom">
+            <div className="shareBottom">
                 <div className="shareOptions">
                     <div className="shareOption">
                     <PermMedia htmlColor="tomato" className="shareIcon"/>
